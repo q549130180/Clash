@@ -562,3 +562,4 @@ payload:
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
   # twitter end
+  - DOMAIN-SUFFIX,ggpht.cn
