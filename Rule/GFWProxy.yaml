@@ -162,6 +162,7 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,lobehub.com
   - DOMAIN-SUFFIX,justin3go.com
+  - DOMAIN-SUFFIX,freedidi.com
 
   # tiktok
   - DOMAIN-SUFFIX,tiktokcdn-us.com
