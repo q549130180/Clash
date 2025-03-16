@@ -165,19 +165,19 @@ payload:
   - DOMAIN-SUFFIX,freedidi.com
 
   # claude start
-  - DOMAIN-KEYWORD,claude.ai,PROXY
-  - DOMAIN-SUFFIX,anthropic.com,PROXY
-  - DOMAIN-KEYWORD,anthropic,PROXY
-  - DOMAIN-KEYWORD,yeka.ai,PROXY
-  - DOMAIN-KEYWORD,amazonaws.com,PROXY
-  - DOMAIN-KEYWORD,smsactivate.s3.eu-central-1.amazonaws.com,PROXY
-  - DOMAIN-KEYWORD,sms-activate.guru,PROXY
-  - DOMAIN-KEYWORD,yandex.ru,PROXY
-  - DOMAIN-KEYWORD,jsdelivr.net,PROXY
-  - DOMAIN-KEYWORD,jivosite.com,PROXY
-  - DOMAIN-KEYWORD,unpkg.com,PROXY
-  - DOMAIN-KEYWORD,jivo.ru,PROXY
-  - DOMAIN-KEYWORD,mail.ru,PROXY
+  - DOMAIN-KEYWORD,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,yeka.ai
+  - DOMAIN-KEYWORD,amazonaws.com
+  - DOMAIN-KEYWORD,smsactivate.s3.eu-central-1.amazonaws.com
+  - DOMAIN-KEYWORD,sms-activate.guru
+  - DOMAIN-KEYWORD,yandex.ru
+  - DOMAIN-KEYWORD,jsdelivr.net
+  - DOMAIN-KEYWORD,jivosite.com
+  - DOMAIN-KEYWORD,unpkg.com
+  - DOMAIN-KEYWORD,jivo.ru
+  - DOMAIN-KEYWORD,mail.ru
   # claude end
 
   # tiktok
