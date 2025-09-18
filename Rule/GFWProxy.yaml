@@ -572,9 +572,135 @@ payload:
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,phncdn.com
-  
+
   # twitter start
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twimg.com
   # twitter end
   - DOMAIN-SUFFIX,ggpht.cn
+
+  - DOMAIN-KEYWORD,sms-activate.org,PROXY
+
+  # claude start
+  - DOMAIN-KEYWORD,claude.ai,PROXY
+  - DOMAIN-SUFFIX,anthropic.com,PROXY
+  - DOMAIN-KEYWORD,anthropic,PROXY
+  - DOMAIN-KEYWORD,yeka.ai,PROXY
+  - DOMAIN-KEYWORD,amazonaws.com,PROXY
+  - DOMAIN-KEYWORD,smsactivate.s3.eu-central-1.amazonaws.com,PROXY
+  - DOMAIN-KEYWORD,sms-activate.guru,PROXY
+  - DOMAIN-KEYWORD,yandex.ru,PROXY
+  - DOMAIN-KEYWORD,jsdelivr.net,PROXY
+  - DOMAIN-KEYWORD,jivosite.com,PROXY
+  - DOMAIN-KEYWORD,unpkg.com,PROXY
+  - DOMAIN-KEYWORD,jivo.ru,PROXY
+  - DOMAIN-KEYWORD,mail.ru,PROXY
+
+  - DOMAIN-KEYWORD,stripe.com,PROXY
+  - DOMAIN-KEYWORD,claudeusercontent.com,PROXY
+  - DOMAIN-KEYWORD,claude.ai,PROXY
+  - DOMAIN-KEYWORD,stripe.network,PROXY
+  - DOMAIN-KEYWORD,purecatamphetamine.github.io,PROXY
+
+  # claude end
+
+  - DOMAIN-KEYWORD,payssion.com,PROXY
+  - DOMAIN-KEYWORD,alipayplus.com,PROXY
+  - DOMAIN-SUFFIX,alipayplus.com,PROXY
+  - DOMAIN-KEYWORD,open-sea.alipayplus.com,PROXY
+
+  - DOMAIN-SUFFIX,roblox.com,PROXY
+
+  - DOMAIN-KEYWORD,6v520.com,PROXY
+
+  - DOMAIN-KEYWORD,igeekbb.com,PROXY
+  - DOMAIN-KEYWORD,zlib1.ru,PROXY
+  - DOMAIN-KEYWORD,zlibrary4.ru,PROXY
+  - DOMAIN-SUFFIX,xiaohongmall.com,PROXY
+  - DOMAIN-KEYWORD,ui.com,PROXY
+  - DOMAIN-KEYWORD,chatpdf.com,PROXY
+  - DOMAIN-KEYWORD,lmarena.ai,PROXY
+  - DOMAIN-SUFFIX,polymarket.com,PROXY
+  - DOMAIN-KEYWORD,polymarket.com,PROXY
+
+
+  - DOMAIN-KEYWORD,cline.bot,PROXY
+  - DOMAIN-KEYWORD,ollama.com,PROXY
+
+  - DOMAIN-KEYWORD,readdy.ai,PROXY
+  - DOMAIN-KEYWORD,trae.ai,PROXY
+  - DOMAIN-KEYWORD,byteoversea.com,PROXY
+
+  - DOMAIN-KEYWORD,simgbb.com,PROXY
+  - DOMAIN-KEYWORD,gstatic.com,PROXY
+  - DOMAIN-KEYWORD,ibb.co,PROXY
+
+  # t-mobile
+  - DOMAIN-KEYWORD,t-mobile.com,PROXY
+
+  - DOMAIN-KEYWORD,adguard.com,PROXY
+  - DOMAIN-KEYWORD,mempool.space,PROXY
+  - DOMAIN-KEYWORD,ckpool.org,PROXY
+
+  # hefu
+  - DOMAIN-SUFFIX,codehub.cn,DIRECT
+  - DOMAIN-SUFFIX,tencent-cloud.com,DIRECT
+
+  # feishu
+  - DOMAIN-SUFFIX,feishu.cn,DIRECT
+  - DOMAIN-KEYWORD,feishu,DIRECT
+  - DOMAIN-KEYWORD,coze.com,PROXY
+
+  - IP-CIDR,1.0.0.0/16,PROXY
+  - IP-CIDR,0.0.0.0/16,PROXY
+
+  # https://librespeed.org/ 测速网站
+  - DOMAIN-SUFFIX,librespeed.org,PROXY
+
+  - DOMAIN,ipinfo.io,PROXY
+
+  # 常见广告域名屏蔽 start
+  # - RULE-SET,AdBlock,REJECT
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-SUFFIX,appsflyer.com,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,lianmeng,REJECT
+  - DOMAIN-SUFFIX,mmstat.com,REJECT
+  - DOMAIN-KEYWORD,mopub,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,uedas,REJECT
+  - DOMAIN-KEYWORD,umeng,REJECT
+  - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-SUFFIX,vungle.com,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  # 常见广告域名屏蔽 end
+
+  - "DOMAIN,injections.adguard.org,DIRECT"
+  - "DOMAIN,local.adguard.org,DIRECT"
+  - "DOMAIN-SUFFIX,local,DIRECT"
+  - "IP-CIDR,127.0.0.0/8,DIRECT"
+  - "IP-CIDR,172.16.0.0/12,DIRECT"
+  - "IP-CIDR,192.168.0.0/16,DIRECT"
+  - "IP-CIDR,10.0.0.0/8,DIRECT"
+  - "IP-CIDR,17.0.0.0/8,DIRECT"
+  - "IP-CIDR,100.64.0.0/10,DIRECT"
+  - "IP-CIDR,224.0.0.0/4,DIRECT"
+  - "IP-CIDR6,fe80::/10,DIRECT"
+  - "DOMAIN-SUFFIX,cn,DIRECT"
+  - "DOMAIN-KEYWORD,-cn,DIRECT"
