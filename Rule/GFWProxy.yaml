@@ -572,6 +572,7 @@ payload:
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-KEYWORD,redd.it
 
   # twitter start
   - DOMAIN-SUFFIX,twitter.com
