@@ -659,6 +659,9 @@ payload:
   - DOMAIN-SUFFIX,librespeed.org,PROXY
 
   - DOMAIN,ipinfo.io,PROXY
+  - DOMAIN-SUFFIX,googleapis.com,PROXY
+  - DOMAIN-KEYWORD,googleapis.com,PROXY
+  - DOMAIN-KEYWORD,proactivebackend-pa.googleapis.com,PROXY
 
   # 常见广告域名屏蔽 start
   # - RULE-SET,AdBlock,REJECT
