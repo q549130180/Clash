@@ -659,6 +659,8 @@ payload:
   - DOMAIN-SUFFIX,librespeed.org,PROXY
 
   - DOMAIN,ipinfo.io,PROXY
+
+  # Google AI引入了新的API检查用户所在国家，需要对这个域名设定规则
   - DOMAIN-SUFFIX,googleapis.com,PROXY
   - DOMAIN-KEYWORD,googleapis.com,PROXY
   - DOMAIN-KEYWORD,proactivebackend-pa.googleapis.com,PROXY
