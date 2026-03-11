@@ -163,6 +163,7 @@ payload:
   - DOMAIN-SUFFIX,lobehub.com
   - DOMAIN-SUFFIX,justin3go.com
   - DOMAIN-SUFFIX,freedidi.com
+  - DOMAIN-SUFFIX,sonic.net
 
   # claude start
   - DOMAIN-KEYWORD,claude.ai
